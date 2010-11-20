@@ -19,5 +19,6 @@ set number
 nmap ,n :NERDTree<CR>
 
 if has("autocmd")
-  au  BufNewFile,BufRead *.mustache set syntax=mustache
+  au BufNewFile,BufRead *.mustache set syntax=mustache
+  au BufNewFile,BufRead *.vb set syntax=vbnet
 endif
