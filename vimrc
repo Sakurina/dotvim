@@ -3,6 +3,7 @@ call pathogen#helptags()
 
 set nocompatible
 
+filetype plugin on
 filetype plugin indent on
 syntax on
 
