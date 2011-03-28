@@ -16,3 +16,6 @@
 [submodule "bundle/coffeescript"]
 	path = bundle/coffeescript
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/scala"]
+	path = bundle/scala
+	url = https://github.com/rosstimson/scala-vim-support.git
