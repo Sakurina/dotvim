@@ -2,6 +2,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 set nocompatible
+set wildmenu
 
 filetype plugin on
 filetype plugin indent on
