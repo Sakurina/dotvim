@@ -8,8 +8,9 @@ filetype plugin on
 filetype plugin indent on
 syntax on
 
-set background=dark
-colorscheme molokai
+"set t_Co=256
+"set background=dark
+colorscheme smyck
 set guifont=Inconsolata:h18
 
 set shiftwidth=2
