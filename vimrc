@@ -9,15 +9,14 @@ filetype plugin indent on
 syntax on
 
 "set t_Co=256
-"set background=dark
-colorscheme smyck
+set background=dark
+colorscheme base16-tomorrow
 set guifont=Inconsolata:h18
 
 set shiftwidth=2
 set tabstop=2
 set expandtab
 set smarttab
-set number
 
 nmap ,n :NERDTree<CR>
 
