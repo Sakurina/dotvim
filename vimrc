@@ -24,4 +24,5 @@ if has("autocmd")
   au BufNewFile,BufRead *.mustache set syntax=mustache
   au BufNewFile,BufRead *.vb set syntax=vbnet
   au BufNewFile,BufRead *.j set syntax=objj
+  au BufNewFile,BufRead wscript set syntax=python
 endif
