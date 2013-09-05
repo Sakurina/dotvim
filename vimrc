@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 set nocompatible
 set wildmenu
 
@@ -7,7 +5,8 @@ filetype plugin on
 filetype plugin indent on
 syntax on
 
-"set t_Co=256
+execute pathogen#infect()
+
 set background=dark
 colorscheme base16-tomorrow
 set guifont=Inconsolata:h18
@@ -25,3 +24,6 @@ if has("autocmd")
   au BufNewFile,BufRead *.j set syntax=objj
   au BufNewFile,BufRead wscript set syntax=python
 endif
+
+" for airline
+set laststatus=2

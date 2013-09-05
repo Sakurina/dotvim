@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Applications/XAMPP/xamppfiles/htdocs/velo'
+let g:netrw_dirhist_2='/Users/sakurina/src/_projects/sr-direkt'
+let g:netrw_dirhist_3='/Users/sakurina/src/_projects/svt-remote/ipad'
+let g:netrw_dirhist_4='/Users/sakurina/src/_projects/rayquaza/dylib'
+let g:netrw_dirhist_5='/Users/sakurina/src/_projects/plusminus/dylib'
+let g:netrw_dirhist_6='/Users/sakurina/src/_projects/urllogger/net.r-ch.urllogger/DEBIAN'
